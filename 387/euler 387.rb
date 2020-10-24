@@ -13,9 +13,9 @@ def is_prime(num)
 		i=3
 		while prime
 			break if i >limit
-			prime = num%i!=0
+			prime = (num % i) !=0
 		i+=2
-	end
+		end
 	end	
 	prime
 end
